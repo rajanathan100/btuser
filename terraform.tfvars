@@ -1,0 +1,10 @@
+vpc_cidr_block              = "10.0.0.0/16"
+subnet_cidr_block_public    = "10.0.110.0/24"
+subnet_cidr_block_private   = "10.0.120.0/24"
+avail_zone                  = "us-east-1a"
+env_prefix                  = "btuser"
+my_ip                       = "192.30.66.10/32"
+instance_type               = "t2.micro"
+instant_count               = 1
+key_name_win                = "btuserpem"
+key_name_linux              = "btuser"

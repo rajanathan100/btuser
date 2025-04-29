@@ -1,0 +1,10 @@
+variable "env_prefix" {}
+variable "vpc_cidr_block" {}
+variable "subnet_cidr_block_public" {}
+variable "subnet_cidr_block_private" {}
+variable "avail_zone" {}
+variable "my_ip" {}
+variable "instance_type" {}
+variable "instant_count" {}
+variable "key_name_win" {}
+variable "key_name_linux" {}
